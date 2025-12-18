@@ -33,7 +33,6 @@ for name, rating in movies:
     elif rating<average_rating:
         below_avg.append(name)
 
-
 print(f"Average rating:{average_rating}")
 print(f"Highest rated movie:{h_rate[0]}")
 print(f"Movies above average:{above_avg}")

@@ -9,23 +9,16 @@ graph = {
     "C": {"A", "D"},
     "D": {"B", "C"}
 }
-
-# Ask user for path (entered with spaces)
 user_input = input("Enter path (like A C D): ").split()
-
-# Function to check if path is valid
 def validate_path(path):
-    # Check each pair of consecutive nodes
     for i in range(len(path) - 1):
         current_node = path[i]
         next_node = path[i + 1]
 
-        # If next_node is not in the connections of current_node → invalid
         if next_node not in graph[current_node]:
             return False
     return True
 
-# Validate and print result
 if validate_path(user_input):
     print("Valid path")
 else:
