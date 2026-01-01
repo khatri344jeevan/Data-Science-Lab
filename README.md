@@ -1,8 +1,4 @@
-"# Data Science Lab
-
-This repository contains Python lab exercises for Data Science Fundamentals (Semester V, BCSIT).
-
-## 📁 Directory Structure
+# Data Science Lab
 
 ### Lab 1 - Python Basics
 Fundamental Python programming exercises covering control structures, functions, and basic algorithms.
