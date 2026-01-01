@@ -21,13 +21,13 @@ def sell_item(name, quantity):
             inventory[name] -= quantity
             print(f"{quantity} {name} sold.")
         else:
-            print("Not enough stock available!")
+            print("Not enough stock available")
     else:
         print("Item not found in inventory.")
 
 
 def low_stock_items():
-    print("\nItems low in stock (less than 3):")
+    print("Items low in stock (less than 3):")
     for item, qty in inventory.items():
         if qty < 3:
             print(f"{item}: {qty}")
@@ -36,7 +36,7 @@ add_item("apple", 5)
 sell_item("banana", 2)
 sell_item("milk", 1)
 
-print("\nUpdated Inventory:")
+print("Updated Inventory:")
 for item, qty in inventory.items():
     print(f"{item}: {qty}")
 
