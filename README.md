@@ -1,8 +1,4 @@
-"# Data Science Lab
-
-This repository contains Python lab exercises for Data Science Fundamentals (Semester V, BCSIT).
-
-## 📁 Directory Structure
+# Data Science Lab
 
 ### Lab 1 - Python Basics
 Fundamental Python programming exercises covering control structures, functions, and basic algorithms.
@@ -39,4 +35,3 @@ File I/O operations with text, CSV, and JSON files, implementing robust error ha
 3. [fileWithException.py](lab3/fileWithException.py) - Number processing from file with error handling
 4. [jsonFile.py](lab3/jsonFile.py) - JSON data writing and reading with exception handling
 5. [menuFileOps.py](lab3/menuFileOps.py) - Menu-driven file operations (write, read, append)
-
