@@ -39,8 +39,37 @@ File I/O operations with text, CSV, and JSON files, implementing robust error ha
 ### Lab 4 - Advanced Python Features
 
 1. [sortMarks.py](lab4/sortMarks.py) - Write a Python script that takes a list of student marks and sorts them in descending order (highest to lowest) using either the `sorted()` function or the `.sort()` method.
+   
+   **Output:**
+   
+   ![sortMarks Output](lab4/sortMarks.png)
+
 2. [calculateSum.py](lab4/calculateSum.py) - Given a list of student names and a list of their corresponding scores, use the `zip()` function to pair them together and then apply the `reduce()` function from the `functools` module to calculate the total sum of all scores.
+   
+   **Output:**
+   
+   ![calculateSum Output](lab4/totalSum.png)
+
 3. [generator.py](lab4/generator.py) - Create a generator function using the `yield` keyword that produces numbers from 1 to 5 one by one to illustrate how lazy evaluation can save memory when dealing with large datasets.
+   
+   **Output:**
+   
+   ![generator Output](lab4/generatoy.png)
+
 4. [randomSelect.py](lab4/randomSelect.py) - Write a Python script that takes a list of six student names and uses the `random.sample()` function to randomly select exactly three "Volunteers" for a presentation, ensuring that no student is picked more than once in the selection.
+   
+   **Output:**
+   
+   ![randomSelect Output](lab4/randomSelect.png)
+
 5. [reModule.py](lab4/reModule.py) - Use the `re` module to write a script that searches through a paragraph and extracts all words that start with an uppercase letter (e.g., "London", "Python") to identify proper nouns or sentence starters.
+   
+   **Output:**
+   
+   ![reModule Output](lab4/reModule.png)
+
 6. [listComprehension.py](lab4/listComprehension.py) - Use a list comprehension to create a new list containing only the even numbers between 1 and 20, demonstrating a more concise and readable alternative to traditional loops.
+   
+   **Output:**
+   
+   ![listComprehension Output](lab4/listcomprehension.png)
